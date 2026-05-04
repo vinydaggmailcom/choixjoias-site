@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Choix Joias"
+version = "1.0.0"
+id = "artifacts/choix-joias"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23541
+
+[services.development]
+run = "pnpm --filter @workspace/choix-joias run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/choix-joias", "run", "build" ]
+publicDir = "artifacts/choix-joias/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23541"
+BASE_PATH = "/"

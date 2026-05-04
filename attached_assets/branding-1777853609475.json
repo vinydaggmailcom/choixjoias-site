@@ -1,0 +1,121 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Source Sans Pro",
+      "role": "body"
+    },
+    {
+      "family": "Playfair Display",
+      "role": "heading"
+    },
+    {
+      "family": "Montserrat",
+      "role": "unknown"
+    },
+    {
+      "family": "Georgia",
+      "role": "unknown"
+    },
+    {
+      "family": "GD Sherpa",
+      "role": "unknown"
+    }
+  ],
+  "colors": {
+    "primary": "#8995A9",
+    "secondary": "#09757A",
+    "accent": "#FFFF00",
+    "background": "#000000",
+    "textPrimary": "#000000",
+    "link": "#FFFF00"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Source Sans Pro",
+      "heading": "Playfair Display"
+    },
+    "fontStacks": {
+      "heading": [
+        "Playfair Display",
+        "Georgia",
+        "serif"
+      ],
+      "body": [
+        "Times New Roman"
+      ],
+      "paragraph": [
+        "Source Sans Pro",
+        "arial",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "64px",
+      "h2": "48px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "4px"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "#FFFFFF",
+      "textColor": "#000000",
+      "borderColor": "#8995A9",
+      "borderRadius": "4px",
+      "borderRadiusCorners": {
+        "topLeft": "4px",
+        "topRight": "4px",
+        "bottomRight": "4px",
+        "bottomLeft": "4px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": null,
+    "favicon": "File saved at: attached_assets/favicon.jpg",
+    "ogImage": "File saved at: attached_assets/ogImage.jpg"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 1,
+      "text": "Experimente grátis",
+      "reasoning": "The button 'Experimente grátis' has action-oriented text suggesting a trial or free experience, which is typically a primary call-to-action. Despite both buttons having the same background color, this button's text is more indicative of a primary action."
+    },
+    "secondary": {
+      "index": 0,
+      "text": "Aceitar",
+      "reasoning": "The button 'Aceitar' is likely related to accepting terms or cookies, which is a secondary action compared to starting a free trial."
+    },
+    "confidence": 0.8
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "fashion-conscious individuals"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.8,
+    "colors": 0.9,
+    "overall": 0.8500000000000001
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": false,
+      "llmSucceeded": false,
+      "finalSource": "none"
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

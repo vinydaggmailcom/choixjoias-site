@@ -1,0 +1,50 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "PSsZ1sRBvDz_b8JcG-Q3_"
+uri = "file://artifacts/choix-joias/public/images/ring-1.png"
+type = "image"
+title = "Gold ring on dark velvet"
+
+[[generated]]
+id = "bJKYWMxN1v-yhzpU7_1H1"
+uri = "file://artifacts/choix-joias/public/images/necklace-1.png"
+type = "image"
+title = "Silver necklace on slate"
+
+[[generated]]
+id = "JlJwxq139NSc6Km3Ga5Oo"
+uri = "file://artifacts/choix-joias/public/images/bracelets-1.png"
+type = "image"
+title = "Gold bracelets on black silk"
+
+[[generated]]
+id = "QNmGFNPFvz8oDwbzK-XSj"
+uri = "file://artifacts/choix-joias/public/images/earrings-1.png"
+type = "image"
+title = "Diamond earrings on dark background"
+
+[[generated]]
+id = "UiC8qNjX8wMz-a01GpIAk"
+uri = "file://artifacts/choix-joias/public/images/ring-2.png"
+type = "image"
+title = "Emerald cocktail ring"
+
+[[generated]]
+id = "Cg6inlPxQukla6uO5I8PU"
+uri = "file://artifacts/choix-joias/public/images/necklace-2.png"
+type = "image"
+title = "Pearl necklace on black marble"
+
+[[generated]]
+id = "UJUlW3-DHQRo2QXC0tlRC"
+uri = "file://artifacts/choix-joias/public/images/earrings-2.png"
+type = "image"
+title = "Gold hoop earrings"
+
+[[generated]]
+id = "VCzN46BSnVFXnTuYk_gZ8"
+uri = "file://artifacts/choix-joias/public/images/bracelet-2.png"
+type = "image"
+title = "Vintage diamond bracelet"
